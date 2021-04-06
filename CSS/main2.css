@@ -9,17 +9,15 @@ body {
   height: 100%;
 }
 /****** HEADER ******/
-/* header {
-  background-image: url("../img/contact.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
-} */
+
+.img-fluid {
+  width: 100%;
+}
 
 #hero-text {
   font-family: "Lora", serif;
   margin-top: -37%;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: right;
 }
 
@@ -60,13 +58,13 @@ body {
 #about {
   height: 40%;
   margin-top: 40%;
-  padding: 10%;
+  padding: 5%;
 }
 /****** WORK ******/
 #work {
   height: 40%;
   margin: 10% 0;
-  padding: 10%;
+  padding: 5%;
   background-color: #f9ceb7;
 }
 
@@ -93,12 +91,22 @@ body {
 #contact {
   height: 40%;
   margin: 10% 0;
-  padding: 10%;
+  padding: 5%;
 }
 
 #contact-me-header {
   font-size: 2rem;
   margin-bottom: 3%;
+}
+
+#message {
+  margin-top: 3%;
+}
+
+#submit {
+  background-color: #a5a58d;
+  margin-top: 3%;
+  text-align: center;
 }
 /****** FOOTER ******/
 footer {
@@ -106,4 +114,21 @@ footer {
   text-align: center;
 }
 
-@media();
+#envelope {
+  margin-right: 10%;
+}
+
+#linkedin {
+  margin-right: 10%;
+}
+
+@media (max-width: 500px) {
+  #hero-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  #hero-text {
+    font-size: 2rem;
+  }
+}
